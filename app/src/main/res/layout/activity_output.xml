@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.checker.yousef.mytext.OutputActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/outputText"
+            android:gravity="left|top"
+            android:padding="5dp"
+            android:layout_marginBottom="45dp"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="35dp"
+            android:layout_alignParentBottom="true"
+            android:background="#cccccc"/>
+
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/outputCount"
+            android:gravity="left|top"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

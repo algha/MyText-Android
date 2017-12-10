@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Settings">
+        <Preference android:title="Check word list" android:key="checklist"/>
+        <Preference android:title="Check history" android:key="history"/>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="About">
+        <Preference android:title="How to use" android:key="tutorial"/>
+        <Preference android:title="About this app" android:key="about"/>
+        <Preference android:title="About me" android:key="aboutme"/>
+        <Preference android:title="Feedback" android:key="feedback"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Support">
+        <Preference android:title="Donate" android:key="donate"/>
+        <Preference android:title="Share to social media" android:key="share"/>
+        <Preference android:title="Give a star" android:key="star"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

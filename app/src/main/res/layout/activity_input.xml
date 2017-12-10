@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.checker.yousef.mytext.InputActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/sourceText"
+                android:gravity="left|top"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:hint="Insert source text"
+                style="@android:style/Widget.AutoCompleteTextView"/>
+
+            <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:drawableLeft="@drawable/ic_attach_file_black_24dp"-->
+            <!--android:drawablePadding="6dp"-->
+            <!--android:gravity="left|center"-->
+            <!--android:padding="6dp"-->
+            <!--android:text="Select text file"-->
+            <!--android:textColor="#000"-->
+            <!--android:textStyle="bold" />-->
+
+            <EditText
+                android:gravity="left|top"
+                android:id="@+id/checkText"
+                android:hint="Insert search text"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                />
+
+            <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:drawableLeft="@drawable/ic_list_black_24dp"-->
+            <!--android:drawablePadding="6dp"-->
+            <!--android:gravity="left|center"-->
+            <!--android:padding="6dp"-->
+            <!--android:background="@null"-->
+            <!--android:text="Select from my check list"-->
+            <!--android:textColor="#000"-->
+            <!--android:textStyle="bold" />-->
+
+            <Button
+                android:id="@+id/check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check now"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
